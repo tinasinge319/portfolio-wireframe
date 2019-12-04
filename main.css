@@ -1,0 +1,632 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+    
+header {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    left: 0;
+    background-color: black; 
+}
+   
+nav {
+    overflow: hidden; 
+}
+    
+nav ul {
+    list-style: none;
+    justify-items: flex-start;
+    text-align: center;   
+}
+
+nav li {
+    display: inline;
+    padding-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#headshot {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#introName {
+    text-align: center;
+}
+
+#descriptiveWords {
+    text-align: center;
+}
+
+.introDescription {
+    text-align: center;
+}
+
+.seeMyWorkButton {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    background-color: rgba(229, 232, 235, 0.776);
+}
+
+.button {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#portfolioHeading {
+    text-align: left;
+}
+
+.quizAppBox {
+    background-color: rgba(229, 232, 235, 0.776);
+}
+
+#quizAppScreenshot {
+    width: 100%;
+}
+
+.featuredImageTitle {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.featuredImageDescription {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.liveView {
+    font-size: 12px;
+    text-decoration: none;
+    text-align: left;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.viewCode {
+    font-size: 12px;
+    text-decoration: none;
+    text-align: left;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+#aboutMeHeading {
+    text-align: left;
+}
+
+#aboutMeImage {
+    width: 100%;
+}
+
+.aboutMeDescription {
+    text-align: left;
+}
+
+#contactHeading {
+    text-align: left;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: vertical;
+    background-color: rgba(229, 232, 235, 0.776);
+}
+
+form textarea {
+    height: 15em;
+}
+
+input[type=submit] {
+    width: 100%;
+    color: black;
+    background-color:  rgba(229, 232, 235, 0.776);
+    font-size: 1.2em;
+    padding: 12px 20px;
+    margin-bottom: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+}
+
+footer a {
+    text-decoration: none;
+    padding-right: 50px;
+    color: white;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+        
+    header {
+        position: fixed;
+        top: 0;
+        height: 50px;
+        width: 100%;
+        left: 0;
+        background-color: black; 
+    } 
+
+    nav {
+        overflow: hidden; 
+    }
+        
+    nav ul {
+        list-style: none;
+        justify-items: flex-start;
+        text-align: center;   
+    }
+    
+    nav li {
+        display: inline;
+        padding-right: 50px;
+        font-size: 25px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .wrapHeadshot {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #headshot {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 75px;
+    }
+
+    #introName {
+        text-align: center;
+        font-size: 52px;
+    }
+
+    #descriptiveWords {
+        text-align: center;
+        font-size: 38px;
+    }
+    
+    .introDescription {
+        text-align: center;
+        font-size: 24px;
+    }
+    
+    .seeMyWorkButton {
+        text-align: center;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: none;
+        background-color: rgba(229, 232, 235, 0.776);
+    }
+    
+    .button {
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #portfolioHeading {
+        font-size: 38px;
+    }
+
+    .quizAppBox {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(229, 232, 235, 0.776);
+        width: 80%;
+    }
+    
+    #quizAppScreenshot {
+        width: 100%;
+        margin-top: 0px;
+    }
+    
+    .featuredImageTitle {
+        text-align: left;
+        font-size: 24px;
+        padding-left: 5px;
+    }
+    
+    .featuredImageDescription {
+        text-align: left;
+        font-size: 20px;
+        padding-left: 5px;
+    }
+
+    .liveView {
+        font-size: 16px;
+        text-decoration: none;
+        text-align: left;
+        padding-right: 10px;
+        padding-left: 5px;
+    }
+    
+    .viewCode {
+        font-size: 16px;
+        text-decoration: none;
+        text-align: left;
+        padding-right: 10px;
+        padding-left: 5px;
+    }
+
+    #aboutMeHeading {
+        text-align: left;
+        font-size: 38px;
+    }
+
+    .aboutMeImage {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .wrapAboutMeImage {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .aboutMeDescription {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    #contactHeading {
+        text-align: left;
+        font-size: 38px;
+    }
+
+    .wrapContactRow {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    input[type=text], select, textarea {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 50px;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        resize: vertical;
+        background-color: rgba(229, 232, 235, 0.776);
+    }
+    
+    form textarea {
+        height: 240px;
+    }
+
+    .wrapSendMessage {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    input[type=submit] {
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        color: black;
+        background-color:  rgba(229, 232, 235, 0.776);
+        font-size: 1.2em;
+        padding: 12px 20px;
+        margin-bottom: 15px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    footer {
+        background-color: black;
+        height: 50px;
+        width: 100%;
+    }
+    
+    footer ul {
+        list-style: none;
+        text-align: center;
+    }
+    
+    footer li {
+        display: inline;
+    }
+    
+    footer a {
+        text-decoration: none;
+        padding-right: 50px;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+        
+    header {
+        position: fixed;
+        top: 0;
+        height: 50px;
+        width: 100%;
+        left: 0;
+        background-color: black; 
+    } 
+
+    nav {
+        overflow: hidden; 
+    }
+        
+    nav ul {
+        list-style: none;
+        justify-items: flex-start;
+        text-align: center;   
+    }
+    
+    nav li {
+        display: inline;
+        padding-right: 50px;
+        font-size: 25px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #home {
+        position: relative;
+        z-index: -1;
+    }
+
+    #headshot {
+        position: relative;
+        width: 30%;
+        top: 20px;
+        left: 15%;
+    }
+
+    #introName {
+        position: relative;
+        margin-bottom: 0;
+        right: 15%;
+        bottom: 225px; 
+    }
+
+    #descriptiveWords {
+        position: relative;
+        margin-top: 0;
+        right: 15%;
+        bottom: 225px;
+    }
+
+    .introDescription {
+        position: relative;
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        bottom: 100px;
+    }
+
+    .seeMyWorkButton {
+        position: relative;
+        width: 15%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: none;
+        background-color: rgba(229, 232, 235, 0.776);
+    }
+    
+    .button {
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    hr {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    #portfolioHeading {
+        font-size: 38px;
+    }
+
+    .quizAppBox {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgba(229, 232, 235, 0.776);
+        width: 30%;
+    }
+    
+    #quizAppScreenshot {
+        width: 100%;
+        margin-top: 0px;
+    }
+    
+    .featuredImageTitle {
+        text-align: left;
+        font-size: 24px;
+        padding-left: 5px;
+    }
+    
+    .featuredImageDescription {
+        text-align: left;
+        font-size: 20px;
+        padding-left: 5px;
+    }
+
+    .liveView {
+        font-size: 16px;
+        text-decoration: none;
+        text-align: left;
+        padding-right: 10px;
+        bottom: 20px;
+        padding-left: 5px;
+    }
+    
+    .viewCode {
+        font-size: 16px;
+        text-decoration: none;
+        text-align: left;
+        padding-right: 10px;
+        padding-left: 5px;
+    }
+
+    #aboutMeHeading {
+        text-align: left;
+        font-size: 38px;
+    }
+
+    .aboutMeImage {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .wrapAboutMeImage {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    
+    .aboutMeDescription {
+        text-align: center;
+        font-size: 24px;
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        bottom: 100px;
+    }
+
+    #contactHeading {
+        text-align: left;
+        font-size: 38px;
+    }
+
+    .wrapContactRow {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    input[type=text], select, textarea {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50px;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        resize: vertical;
+        font-size: 20px;
+        background-color: rgba(229, 232, 235, 0.776);
+    }
+
+    #subject {
+        width: 50%;
+    }
+    
+    form textarea {
+        height: 300px;
+        width: 50%;
+    }
+
+    .wrapSendMessage {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    input[type=submit] {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 12px 20px;
+        width: 10%;
+        color: black;
+        background-color:  rgba(229, 232, 235, 0.776);
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+    }
+
+    footer {
+        background-color: black;
+        height: 50px;
+        width: 100%;
+    }
+    
+    footer ul {
+        list-style: none;
+        text-align: center;
+    }
+    
+    footer li {
+        display: inline;
+    }
+    
+    footer a {
+        text-decoration: none;
+        padding-right: 50px;
+        color: white;
+    }
+
+}
