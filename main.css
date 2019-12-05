@@ -5,6 +5,7 @@
 body {
     display: flex;
     flex-direction: column;
+    background: linear-gradient(to bottom, #003973, #e5e5be);
 }
     
 header {
@@ -13,7 +14,7 @@ header {
     height: 50px;
     width: 100%;
     left: 0;
-    background-color: black; 
+    background-color: #1d1d1dfc;
 }
    
 nav {
@@ -33,24 +34,45 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: rgb(194, 184, 184);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+nav a:hover {
+    font-weight: bold;
 }
 
 #headshot {
     width: 100%;
     margin-top: 50px;
+    border-radius: 5px;
+    border-color: transparent;
 }
 
 #introName {
     text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: 32px;
+    line-height: 40px;
 }
 
 #descriptiveWords {
     text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 .introDescription {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .seeMyWorkButton {
@@ -60,12 +82,21 @@ nav a {
     padding-top: 15px;
     padding-bottom: 15px;
     border: none;
+    border-radius: 5px;
+    cursor: pointer; 
     background-color: rgba(229, 232, 235, 0.776);
 }
 
 .button {
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 14px;
+    color: rgb(44, 46, 123);
+}
+
+.button:hover {
+    font-weight: bold;
 }
 
 hr {
@@ -75,56 +106,125 @@ hr {
 
 #portfolioHeading {
     text-align: left;
+    font-family: 'Questrial', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
 }
 
 .quizAppBox {
     background-color: rgba(229, 232, 235, 0.776);
+    border-radius: 5px;
 }
 
 #quizAppScreenshot {
     width: 100%;
+    border-radius: 5px;
 }
 
 .featuredImageTitle {
     text-align: left;
     padding-left: 5px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
 }
 
 .featuredImageDescription {
     text-align: left;
     padding-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .liveView {
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
     text-align: left;
     padding-right: 10px;
     padding-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    color: rgb(44, 46, 123);
+}
+
+.liveView:hover {
+    text-decoration: underline;
 }
 
 .viewCode {
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
     text-align: left;
     padding-right: 10px;
     padding-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    color: rgb(44, 46, 123);
+}
+
+.viewCode:hover {
+    text-decoration: underline;
+}
+
+.transoceanCaseStudyBox {
+    background-color: rgba(229, 232, 235, 0.776);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#transoceanScreenshot {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.stateFairBox {
+    background-color: rgba(229, 232, 235, 0.776);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#stateFairScreenshot {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.outdoorHomeCaseStudyBox {
+    background-color: rgba(229, 232, 235, 0.776);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#outdoorHomeScreenshot {
+    width: 100%;
+    border-radius: 5px;
 }
 
 #aboutMeHeading {
     text-align: left;
+    font-family: 'Questrial', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
 }
 
 #aboutMeImage {
     width: 100%;
+    border-radius: 5px;
 }
 
 .aboutMeDescription {
     text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 #contactHeading {
     text-align: left;
+    font-family: 'Questrial', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
 }
 
 input[type=text], select, textarea {
@@ -135,6 +235,9 @@ input[type=text], select, textarea {
     margin-bottom: 15px;
     resize: vertical;
     background-color: rgba(229, 232, 235, 0.776);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border-radius: 5px;
 }
 
 form textarea {
@@ -145,15 +248,23 @@ input[type=submit] {
     width: 100%;
     color: black;
     background-color:  rgba(229, 232, 235, 0.776);
-    font-size: 1.2em;
     padding: 12px 20px;
     margin-bottom: 15px;
     border: none;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    font-weight: bold;
 }
 
 footer {
-    background-color: black;
+    background-color: #1d1d1dfc;
     height: 50px;
     width: 100%;
 }
@@ -184,8 +295,7 @@ footer a {
         top: 0;
         height: 50px;
         width: 100%;
-        left: 0;
-        background-color: black; 
+        left: 0; 
     } 
 
     nav {
@@ -206,7 +316,9 @@ footer a {
 
     nav a {
         text-decoration: none;
-        color: white;
+        color: rgb(194, 184, 184);
+        font-size: 16px;
+        line-height: 20px;
     }
 
     .wrapHeadshot {
@@ -234,6 +346,7 @@ footer a {
     .introDescription {
         text-align: center;
         font-size: 24px;
+        line-height: 30px;
     }
     
     .seeMyWorkButton {
@@ -249,6 +362,8 @@ footer a {
     .button {
         text-decoration: none;
         font-size: 20px;
+        line-height: 24px;
+        color: rgb(44, 46, 123);
     }
     
     hr {
@@ -276,17 +391,20 @@ footer a {
     .featuredImageTitle {
         text-align: left;
         font-size: 24px;
+        line-height: 30px;
         padding-left: 5px;
     }
     
     .featuredImageDescription {
         text-align: left;
         font-size: 20px;
+        line-height: 24px;
         padding-left: 5px;
     }
 
     .liveView {
         font-size: 16px;
+        line-height: 20px;
         text-decoration: none;
         text-align: left;
         padding-right: 10px;
@@ -295,10 +413,56 @@ footer a {
     
     .viewCode {
         font-size: 16px;
+        line-height: 20px;
         text-decoration: none;
         text-align: left;
         padding-right: 10px;
         padding-left: 5px;
+    }
+
+    .transoceanCaseStudyBox {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        background-color: rgba(229, 232, 235, 0.776);
+        width: 80%;
+        border-radius: 5px;
+    }
+    
+    #transoceanScreenshot {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .stateFairBox {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        background-color: rgba(229, 232, 235, 0.776);
+        width: 80%;
+        border-radius: 5px;
+    }
+    
+    #stateFairScreenshot {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .outdoorHomeCaseStudyBox {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        background-color: rgba(229, 232, 235, 0.776);
+        width: 80%;
+        border-radius: 5px;
+    }
+
+    #outdoorHomeScreenshot {
+        width: 100%;
+        border-radius: 5px;
     }
 
     #aboutMeHeading {
@@ -320,6 +484,7 @@ footer a {
     .aboutMeDescription {
         text-align: left;
         font-size: 24px;
+        line-height: 30px;
     }
 
     #contactHeading {
@@ -368,7 +533,7 @@ footer a {
     }
     
     footer {
-        background-color: black;
+        background-color: #1d1d1dfc;
         height: 50px;
         width: 100%;
     }
@@ -401,7 +566,6 @@ footer a {
         height: 50px;
         width: 100%;
         left: 0;
-        background-color: black; 
     } 
 
     nav {
@@ -411,7 +575,7 @@ footer a {
     nav ul {
         list-style: none;
         justify-items: flex-start;
-        text-align: center;   
+        text-align: center;  
     }
     
     nav li {
@@ -422,7 +586,9 @@ footer a {
 
     nav a {
         text-decoration: none;
-        color: white;
+        color: rgb(194, 184, 184);
+        font-size: 16px;
+        line-height: 20px;
     }
 
     #home {
@@ -434,25 +600,27 @@ footer a {
         position: relative;
         width: 30%;
         top: 20px;
-        left: 15%;
+        left: 20%;
     }
 
     #introName {
         position: relative;
         margin-bottom: 0;
-        right: 15%;
-        bottom: 225px; 
+        right: 19%;
+        bottom: 275px; 
+        font-size: 52px;
     }
 
     #descriptiveWords {
         position: relative;
         margin-top: 0;
-        right: 15%;
-        bottom: 225px;
+        right: 13%;
+        bottom: 250px;
     }
 
     .introDescription {
         position: relative;
+        text-align: left;
         width: 55%;
         margin-left: auto;
         margin-right: auto;
@@ -476,11 +644,18 @@ footer a {
     .button {
         text-decoration: none;
         font-size: 20px;
+        line-height: 24px;
+        color: rgb(44, 46, 123);
     }
 
     hr {
         margin-top: 50px;
         margin-bottom: 20px;
+    }
+
+    #portfolio {
+        display: flex;
+        flex-direction: row;
     }
 
     #portfolioHeading {
@@ -490,9 +665,10 @@ footer a {
     .quizAppBox {
         display: block;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: 50px;
+        margin-top: 100px;
         background-color: rgba(229, 232, 235, 0.776);
-        width: 30%;
+        width: 100%;
     }
     
     #quizAppScreenshot {
@@ -503,30 +679,75 @@ footer a {
     .featuredImageTitle {
         text-align: left;
         font-size: 24px;
+        line-height: 30px;
         padding-left: 5px;
     }
     
     .featuredImageDescription {
         text-align: left;
         font-size: 20px;
+        line-height: 24px;
         padding-left: 5px;
     }
 
     .liveView {
         font-size: 16px;
+        line-height: 20px;
         text-decoration: none;
         text-align: left;
         padding-right: 10px;
-        bottom: 20px;
         padding-left: 5px;
     }
     
     .viewCode {
         font-size: 16px;
+        line-height: 20px;
         text-decoration: none;
         text-align: left;
         padding-right: 10px;
         padding-left: 5px;
+    }
+
+    .transoceanCaseStudyBox {
+        display: block;
+        margin-left: auto;
+        margin-right: 50px;
+        margin-top: 100px;
+        background-color: rgba(229, 232, 235, 0.776);
+        width: 100%;
+    }
+    
+    #transoceanScreenshot {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .stateFairBox {
+        display: block;
+        margin-left: auto;
+        margin-right: 50px;
+        margin-top: 100px;
+        background-color: rgba(229, 232, 235, 0.776);
+        width: 100%;
+    }
+
+    #stateFairScreenshot {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .outdoorHomeCaseStudyBox {
+        display: block;
+        margin-left: auto;
+        margin-right: 150px;
+        margin-top: 100px;
+        background-color: rgba(229, 232, 235, 0.776);
+        width: 100%;
+    }
+
+    #outdoorHomeScreenshot {
+        width: 100%;
+        border-radius: 5px;
     }
 
     #aboutMeHeading {
@@ -540,15 +761,16 @@ footer a {
     }
     
     .wrapAboutMeImage {
-        width: 30%;
+        width: 50%;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 20px;
     }
     
     .aboutMeDescription {
-        text-align: center;
-        font-size: 24px;
+        text-align: left;
+        font-size: 20px;
+        line-height: 24px;
         width: 55%;
         margin-left: auto;
         margin-right: auto;
@@ -577,6 +799,7 @@ footer a {
         margin-bottom: 10px;
         resize: vertical;
         font-size: 20px;
+        line-height: 24px;
         background-color: rgba(229, 232, 235, 0.776);
     }
 
@@ -600,16 +823,17 @@ footer a {
         margin-top: 10px;
         margin-bottom: 20px;
         padding: 12px 20px;
-        width: 10%;
+        width: 20%;
         color: black;
         background-color:  rgba(229, 232, 235, 0.776);
         font-size: 18px;
+        line-height: 22px;
         border: none;
         cursor: pointer;
     }
 
     footer {
-        background-color: black;
+        background-color: #1d1d1dfc;
         height: 50px;
         width: 100%;
     }
@@ -628,5 +852,4 @@ footer a {
         padding-right: 50px;
         color: white;
     }
-
 }
